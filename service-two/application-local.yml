@@ -9,7 +9,7 @@ spring:
       host: 192.168.0.104 
       port: 30017
       database: service-two
-      authentication-database: admin
+      # authentication-database: admin
       password: 1234
       username: root
       repositories:
