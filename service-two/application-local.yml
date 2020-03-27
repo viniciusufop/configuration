@@ -6,11 +6,11 @@ spring:
     name: service-two-local
   data:
     mongodb:
-      host: 172.33.0.107
-      port: 27017
+      host: 192.168.0.104 
+      port: 30017
       database: service-two
       authentication-database: admin
       password: 1234
-      username: service-two
+      username: root
       repositories:
         enabled: true
