@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  server:
+    name: service-two-local
+  data:
+    mongodb:
+      host: 172.33.0.107
+      port: 27017
+      database: service-two
+      authentication-database: admin
+      password: 1234
+      username: service-two
+      repositories:
+        enabled: true
