@@ -1,6 +1,22 @@
 server:
-  port: 8082
+  port: 80
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 spring:
   server:
     name: service-two-dev
+  rabbitmq:
+    host: rabbitmq.rabbitmq.svc.cluster.local
+    port: 5672
+    username: rabbitmq
+    password: rabbitmq
+
+cvortex:
+  message: Mensagem Gerada dentro do K8S
