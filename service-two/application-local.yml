@@ -29,4 +29,4 @@ spring:
   #       enabled: true
 
 cvortex:
-  message: Mensagem Dois
+  message: Mensagem Tres
