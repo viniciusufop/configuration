@@ -13,7 +13,7 @@ spring:
   server:
     name: service-two-dev
   rabbitmq:
-    host: rabbitmq.rabbitmq
+    host: rabbitmq.rabbitmq.svc.cluster.local
     port: 5672
     username: rabbitmq
     password: rabbitmq
