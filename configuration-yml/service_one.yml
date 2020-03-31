@@ -1,6 +1,17 @@
-server:
-  port: 8082
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 spring:
   server:
     name: service_one
+  rabbitmq:
+    username: rabbitmq
+    password: rabbitmq
+
+cvortex:
+  message: Mensagem Gerada dentro do K8S - Atualização via Webhook 14

@@ -1,30 +1,7 @@
 server:
   port: 8082
 
-management:
-  security:
-    enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
 spring:
   rabbitmq:
-    host: 192.168.0.104
+    host: 164.68.104.201
     port: 30072
-    username: rabbitmq
-    password: rabbitmq
-  # data:
-  #   mongodb:
-  #     host: 192.168.0.104 
-  #     port: 30017
-  #     database: admin
-  #     authentication-database: admin
-  #     password: 1234
-  #     username: root
-  #     repositories:
-  #       enabled: true
-
-cvortex:
-  message: Mensagem Tres
