@@ -11,7 +11,7 @@ management:
 
 spring:
   server:
-    name: service-two-dev
+    name: service-two
   rabbitmq:
     host: rabbitmq.rabbitmq.svc.cluster.local
     port: 5672
