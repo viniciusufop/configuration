@@ -10,8 +10,6 @@ management:
         include: "*"
 
 spring:
-  server:
-    name: service-two
   rabbitmq:
     host: rabbitmq.rabbitmq.svc.cluster.local
     port: 5672

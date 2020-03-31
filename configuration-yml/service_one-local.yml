@@ -10,8 +10,6 @@ management:
         include: "*"
 
 spring:
-  server:
-    name: service-two-local
   rabbitmq:
     host: 192.168.0.104
     port: 30072
