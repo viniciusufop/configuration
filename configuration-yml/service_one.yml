@@ -14,4 +14,4 @@ spring:
     password: rabbitmq
 
 cvortex:
-  message: Mensagem Gerada dentro do K8S - Atualização via Webhook 14
+  message: Mensagem Gerada dentro do K8S - Atualização via Webhook
