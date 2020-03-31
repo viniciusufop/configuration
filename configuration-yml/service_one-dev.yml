@@ -10,6 +10,8 @@ management:
         include: "*"
 
 spring:
+  profiles:
+    active: dev
   rabbitmq:
     host: rabbitmq.rabbitmq.svc.cluster.local
     port: 5672
